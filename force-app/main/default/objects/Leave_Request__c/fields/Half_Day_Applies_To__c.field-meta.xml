@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Half_Day_Applies_To__c</fullName>
+    <label>Half Day Applies To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>First Day</fullName>
+                <default>false</default>
+                <label>First Day</label>
+            </value>
+            <value>
+                <fullName>Last Day</fullName>
+                <default>false</default>
+                <label>Last Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

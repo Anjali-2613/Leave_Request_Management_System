@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Duration_Conflict</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  TEXT(Leave_Duration__c) = &quot;Half Day&quot;,
+  TEXT(Half_Day_Applies_To__c) &lt;&gt; &quot;None&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Half_Day_Applies_To__c</errorDisplayField>
+    <errorMessage>Choose either single-day Half Day OR specify Half Day applies to First/Last when multi-day. Do not use both.</errorMessage>
+</ValidationRule>
