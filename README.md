@@ -39,7 +39,7 @@ A complete Leave Management automation built on Salesforce using **Flows**, **Ap
 - End Date  
 - Status  
 - Manager (Lookup: User)  
-- HR (Lookup: User)  
+- HR (Lookup:User)  
 - Employee (Lookup: Employee)  
 
 ---
